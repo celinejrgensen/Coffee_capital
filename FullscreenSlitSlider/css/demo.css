@@ -1,0 +1,152 @@
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+    font-family: 'AnimalsNormal';
+    src: url('fonts/animals-webfont.eot');
+    src: url('fonts/animals-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/animals-webfont.woff') format('woff'),
+         url('fonts/animals-webfont.ttf') format('truetype'),
+         url('fonts/animals-webfont.svg#AnimalsNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html { height: 100%; }
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    margin: 0px; 
+}
+
+a {
+	text-decoration: none;
+    color: inherit;
+}
+
+a:visited: {
+	color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+	color: rgba(220,220,220,0.9);
+}
+
+.back {
+	position: fixed;
+    font-weight: normal;
+    padding: 15px 0px 0px 0px;
+    z-index: 2000;
+    background: rgba(150,150,150,0.4);
+    width: 100%;
+    color: white;
+    top: 0px;
+}
+
+
+.text {
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    left: 0;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    height: 70px;
+    z-index: 2;
+    float: left;
+    margin: 35% 0% 0% 35%;
+    padding: 0;
+
+}
+
+cite {
+    position: absolute;
+    width: 30%;
+    text-align: center;
+    left: 0;
+    z-index: 2;
+    float: left;
+    margin: 42% 0% 0% 35%;
+    padding: 0;
+    font-size: 10px;
+	padding-top: 20px;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.navBack {
+    padding: 0px 0px 20px 13px;
+    float: left;
+    font-size: 14px;
+}
+.navPil {
+    padding: 0px 0px 20px 80px;
+    float: left;
+}
+
+.navCategory-content {
+    display: none;
+    position: absolute;
+    width: 220px;
+    padding-top: 72px;
+}
+
+.navCategory-content a {
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+    background: rgba(180,180,180,0.4);
+    font-size: 12px;
+}
+
+.navCategory-content a:hover {background-color: #f1f1f1}
+
+.navCategory:hover .navCategory-content {
+    display: block;
+}
+
+.navIcon {
+    float: right;
+    width: 20%;
+}
+
+.navCategory {
+    padding: 0px 80px 0px 0px;
+    float: right;
+    font-weight: normal;
+    font-size: 14px;
+    width: 15%;
+}
+
+.dropbtn {
+    text-align: right;
+    float: left;
+    font-weight: normal;
+    padding-top: 9%;
+}
+
+.dropicon {
+    width: 10%;
+    float: right;
+}
