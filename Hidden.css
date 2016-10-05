@@ -1,0 +1,76 @@
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    margin: 0px; 
+    background-image: url(Skjermbilde%202016-10-05%20kl.%2000.42.26.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+a {
+	text-decoration: none;
+    color: inherit;
+}
+
+a:visited: {
+	color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+	color: rgba(220,220,220,0.9);
+}
+
+.backgroundpic {
+    width: 100%;
+}
+
+.beans {
+    width: 100%;
+    float: right;
+    position: absolute;
+}
+
+/* Typografi */
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    line-height: 35px;
+}
+
+h5   {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.beantext {
+    width: 25%;
+    padding-left: 34%;
+    padding-top: 12%;
+}
+
+/* Hidden beans */
+
+.hidden_beans {
+    padding-top: 10%;
+}
+
+.bean1 {
+    padding: 0px 50px 20px 899px;
+}
+
+.bean2 {
+    padding: 0px 100px 70px 528px;
+}
+
+.bean3 {
+    padding: 0px 49px 0px 2100px;
+}
+
+.bean4 {
+    padding: 0px 105px 40px 790px;
+}
