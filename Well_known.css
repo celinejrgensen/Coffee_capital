@@ -1,0 +1,87 @@
+/* mandatory */
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    margin: 0px;
+}
+
+a {
+	text-decoration: none;
+    color: inherit;
+}
+
+a:visited: {
+	color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+	color: rgba(220,220,220,0.9);
+}
+
+/* kart */
+
+.innhold {
+    width: 100%;
+}
+
+.Kart {
+    width: 65%;
+    padding-top: 69px;
+    padding-left: 35%;
+    position: fixed;
+    z-index: -1;
+    
+}
+
+#Starbucks_kart {
+    width: 65%;
+    float: right;
+    padding-top: 67px;
+    z-index: 0;
+    position: absolute;
+    padding-left: 35%;
+}
+
+#Gloria {
+    width: 65%;
+    float: right;
+    padding-top: 67px;
+    z-index: 1;
+    position: absolute;
+    padding-left: 35%;
+}
+
+#Hudsons {
+    width: 65%;
+    float: right;
+    padding-top: 67px;
+    z-index: 1;
+    position: absolute;
+    padding-left: 35%;
+}
+
+/* Typografi */
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    line-height: 35px;
+    float: left;
+    width: 100%;
+}
+
+h5   {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.order {
+    width: 20%;
+    padding-top: 15%;
+    padding-left: 10%;
+    list-style: none;
+}
+
