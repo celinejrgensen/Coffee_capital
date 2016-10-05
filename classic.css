@@ -142,21 +142,6 @@ h5   {
 
 /* icons and lists */
 
-.americano {
-    width: 55%;
-    height: 55%;
-}
-
-.espresso {
-    width: 35%;
-    height: 35%;
-}
-
-.cappuchino {
-    width: 55%;
-    height: 55%;
-}
-
 div.item {
     vertical-align: top;
     display: inline-block;
@@ -170,7 +155,7 @@ div.item {
 
 .wrap1 {
     display: inline-block;
-    margin: 9% 0% 0% 15%;
+    margin: 6% 0% 0% 15%;
     text-align: center;
     width: 100%;
     vertical-align: bottom;
@@ -302,10 +287,47 @@ div.item {
     width: 6%;
     padding-right: 6%;
 }
+
 .innrykk {
     padding-left: 12%;
     font-size: 14px;
     line-height: 25px;
 }
 
-/* structure of the different content*/
+/* placement of icons */
+
+
+.espresso {
+    padding-top: 90px;
+    width: 35%;
+    height: 35%;
+}
+
+.americano {
+    padding-top: 23px;
+    width: 55%;
+    height: 55%;
+}
+
+.cappuccino {
+    padding-top: 75px;
+    width: 55%;
+    height: 55%;
+}
+
+.flatwhite {
+    padding-top: 40px;
+    width: 55%;
+    height: 55%;
+}
+
+.latte {
+    width: 55%;
+    height: 55%;
+}
+
+.macchiato {
+    padding-top: 55px;
+    width: 55%;
+    height: 55%;
+}
