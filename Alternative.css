@@ -1,0 +1,278 @@
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    margin: 0px; 
+}
+
+a {
+	text-decoration: none;
+    color: inherit;
+}
+
+a:visited: {
+	color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+	color: rgba(220,220,220,0.9);
+}
+
+.back {
+	position: fixed;
+    font-weight: normal;
+    padding: 15px 0px 0px 0px;
+    z-index: 2000;
+    background: rgba(150,150,150,0.4);
+    width: 100%;
+    color: white;
+    top: 0px;
+}
+
+.navBack {
+    padding: 0px 0px 20px 13px;
+    float: left;
+    font-size: 14px;
+}
+.navPil {
+    padding: 0px 0px 20px 80px;
+    float: left;
+}
+
+.navCategory-content {
+    display: none;
+    position: absolute;
+    width: 220px;
+    padding-top: 72px;
+}
+
+.navCategory-content a {
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+    background: rgba(180,180,180,0.4);
+    font-size: 12px;
+}
+
+.navCategory-content a:hover {background-color: #f1f1f1}
+
+.navCategory:hover .navCategory-content {
+    display: block;
+}
+
+.navIcon {
+    float: right;
+    width: 20%;
+}
+
+.navCategory {
+    padding: 0px 80px 0px 0px;
+    float: right;
+    font-weight: normal;
+    font-size: 14px;
+    width: 15%;
+}
+
+.dropbtn {
+    text-align: right;
+    float: left;
+    font-weight: normal;
+    padding-top: 9%;
+}
+
+.dropicon {
+    width: 10%;
+    float: right;
+}
+
+/*Etter meny*/
+
+.innholdstext {
+    float: left;
+    margin-top: 80%;
+}
+
+video { 
+    position: absolute;
+    width: 100%;
+    top: -35%;
+    z-index: -100;
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    transition: 1s opacity;
+}
+
+.stopfade { 
+   opacity: .5;
+}
+
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+
+@media screen and (max-device-width: 800px) {
+  html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+
+
+/* typografi */
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    line-height: 35px;
+    margin-top: 0px;
+}
+
+h4   {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    width: 20%;
+    float: left;
+    padding-top: 25%;
+    padding-left: 1%;
+    color: #474747;
+    overflow: auto;
+}
+
+.quote {
+    font-size: 80px;
+    padding-top: 26%;
+    padding-left: 9%;
+    float: left;
+    width: 3%;
+}
+
+.innrykk   {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    list-style: none;
+    float: left;
+}
+
+.inglist   {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    list-style: none;
+    width: 25%;
+    float: left;
+}
+
+.inglist2   {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    list-style: none;
+    width: 25%;
+    float: left;
+}
+
+.inglist3   {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    list-style: none;
+    width: 25%;
+    float: left;
+}
+
+.inglist4   {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    list-style: none;
+    width: 25%;
+    float: left;
+}
+
+.ingredienser {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    list-style: none;
+    margin-bottom: 2%;
+}
+
+/* text struktur */
+
+.innhold1 {
+    width: 100%;
+}
+
+.innhold2 {
+    width: 100%;
+    background-color: #F4F4F4;
+}
+
+/* bilde og innhold i div struktur */
+
+.imagecontent {
+    width: 500px;
+}
+
+.libilde {
+    float: left;
+    padding-left: 80px;
+}
+
+.textstruktur {
+    width: 35%;
+    margin-left: 8%;
+    margin-bottom: 6%;
+}
+
+.textstrukturg {
+    width: 35%;
+    margin-left: 8%;
+    margin-bottom: 6%;
+    margin-top: 6%;
+}
+
+.textstruktur1 {
+    width: 35%;
+    margin-left: 8%;
+    margin-bottom: 6%;
+    margin-top: 6%;
+}
+
+.ulinnhold {
+    display: inline-block;
+    list-style: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.ulinnholdtop {
+    display: inline-block;
+    list-style: none;
+    padding-top: 32%;
+    padding-bottom: 5%;
+}
+
+.litext {
+    margin-left: 570px;
+    width: 28%;
+    padding-left: 5%;
+}
+
+.Ingred {
+    float: left;
+    width: 50%;
+    padding-left: 4.5%;
+    margin-top: 2%;
+}
+
+/*tilbake til toppen*/
+
+.tilneste {
+    float: left;
+    margin-left: 5%;
+    margin-top: 7%;
+    font-size: 12px;
+    font-weight: 600;
+}
