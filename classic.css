@@ -1,0 +1,333 @@
+/* mandatory */
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    margin: 0px; 
+}
+
+a {
+	text-decoration: none;
+    color: inherit;
+}
+
+a:visited: {
+	color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+	color: rgba(220,220,220,0.9);
+}
+
+.back {
+	position: fixed;
+    font-weight: normal;
+    padding: 15px 0px 0px 0px;
+    z-index: 2000;
+    background: rgba(150,150,150,0.4);
+    width: 100%;
+    color: white;
+    top: 0px;
+}
+
+.navBack {
+    padding: 0px 0px 20px 13px;
+    float: left;
+    font-size: 14px;
+}
+.navPil {
+    padding: 0px 0px 20px 80px;
+    float: left;
+}
+
+.navCategory-content {
+    display: none;
+    position: absolute;
+    width: 220px;
+    padding-top: 72px;
+}
+
+.navCategory-content a {
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+    background: rgba(180,180,180,0.4);
+    font-size: 12px;
+}
+
+.navCategory-content a:hover {background-color: #f1f1f1}
+
+.navCategory:hover .navCategory-content {
+    display: block;
+}
+
+.navIcon {
+    float: right;
+    width: 20%;
+}
+
+.navCategory {
+    padding: 0px 80px 0px 0px;
+    float: right;
+    font-weight: normal;
+    font-size: 14px;
+    width: 15%;
+}
+
+.dropbtn {
+    text-align: right;
+    float: left;
+    font-weight: normal;
+    padding-top: 9%;
+}
+
+.dropicon {
+    width: 10%;
+    float: right;
+}
+.onepager {
+    margin: 0px;
+}
+
+
+.tilbaketiltopp {
+    float: left;
+    margin-left: 43%;
+    margin-top: 7%;
+    font-size: 11px;
+}
+
+.midstrek {
+    float: left;
+    margin-left: 2%;
+    margin-top: 7%;
+    font-size: 11px;
+}
+
+
+.tilneste {
+    float: left;
+    margin-left: 2%;
+    margin-top: 7%;
+    font-size: 11px;
+}
+
+/* icons and lists */
+
+#overskrift {
+    text-align: center;
+    padding-top: 13%;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    line-height: 35px;
+}
+
+h4   {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h5   {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    display: inline;
+}
+
+/* icons and lists */
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.caption {
+    display: block;
+}
+
+.wrap1 {
+    display: inline-block;
+    margin: 6% 0% 0% 15%;
+    text-align: center;
+    width: 100%;
+    vertical-align: bottom;
+    clear: both;
+    content: ".";
+}
+.wrap2 {
+    display: inline-block;
+    margin: 0% 0% 8% 15%;
+    text-align: center;
+    width: 100%;
+    clear: both;
+    content: ".";
+}
+
+.item {
+    width: 150px;
+    display: inline;
+    float: left;
+}
+
+#wraps {
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-scroll-snap-type: mandatory;
+    -ms-scroll-snap-type: mandatory;
+    scroll-snap-type: mandatory;
+    scroll-behavior: smooth;
+    scroll-snap-destination: 0% 0%;
+}
+
+/* Snap to content */
+
+
+
+/* pages with different coffee sorts*/
+
+#page1 {
+    background-color: #F4F4F4;
+    width: 100%;
+    height: 600px;
+    -webkit-transition:opacity .6s;
+    -moz-transition:opacity .6s;
+    -o-transition:opacity .6s;
+    transition: opacity .6s;
+    padding-top: 6%;
+}
+#page2 {
+    background-color: #FFF;
+    width: 100%;
+    height: 600px;
+    -webkit-transition: all 0.5s ease;
+    padding-top: 6%;
+}
+#page3 {
+    background-color: #F4F4F4;
+    width: 100%;
+    height: 600px;
+    -webkit-transition: all 0.5s ease;
+    padding-top: 6%;
+}
+#page4 {
+    background-color: #FFF;
+    width: 100%;
+    height: 600px;
+    -webkit-transition: all 0.5s ease;
+    padding-top: 6%;
+}
+#page5 {
+    background-color: #F4F4F4;
+    width: 100%;
+    height: 600px;
+    -webkit-transition: all 0.5s ease;
+    padding-top: 6%;
+}
+#page6 {
+    background-color: #FFF;
+    width: 100%;
+    height: 600px;
+    -webkit-transition: all 0.5s ease;
+    padding-bottom: 2%;
+}
+
+/* structure of the different content*/
+
+.contentheader {
+    margin: 14% 0% 10% 0%;
+}
+
+.contenticon {
+    width: 60%;
+    height: 60%;    
+    margin: 27% 0% 0% 0%;
+}
+
+.section1 {
+    margin: 4% 2% 0% 6%;
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+.section2 {
+    margin: 12% 2% 0% 6%;
+    width: 200px;
+    float: left;
+    font-size: 14px;
+}
+.section3 {
+    margin: 12% 2% 0% 6%;
+    width: 200px;
+    float: left;
+    font-size: 14px;
+}
+
+.section4 {
+    margin: 12% 2% 0% 6%;
+    width: 320px;
+    float: left;
+    font-size: 14px;
+}
+
+/* typography */
+
+.infotext {
+    font-weight: 400;
+}
+
+.icon {
+    width: 6%;
+    padding-right: 6%;
+}
+
+.innrykk {
+    padding-left: 12%;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/* placement of icons */
+
+
+.espresso {
+    padding-top: 90px;
+    width: 35%;
+    height: 35%;
+}
+
+.americano {
+    padding-top: 23px;
+    width: 55%;
+    height: 55%;
+}
+
+.cappuccino {
+    padding-top: 75px;
+    width: 55%;
+    height: 55%;
+}
+
+.flatwhite {
+    padding-top: 40px;
+    width: 55%;
+    height: 55%;
+}
+
+.latte {
+    width: 55%;
+    height: 55%;
+}
+
+.macchiato {
+    padding-top: 55px;
+    width: 55%;
+    height: 55%;
+}

@@ -17,74 +17,6 @@ a:hover {
 	color: rgba(220,220,220,0.9);
 }
 
-.back {
-	position: fixed;
-    font-weight: normal;
-    padding: 15px 0px 0px 0px;
-    z-index: 2000;
-    background: rgba(150,150,150,0.4);
-    width: 100%;
-    color: white;
-    top: 0px;
-}
-
-.navBack {
-    padding: 0px 0px 20px 13px;
-    float: left;
-    font-size: 14px;
-}
-.navPil {
-    padding: 0px 0px 20px 80px;
-    float: left;
-}
-
-.navCategory-content {
-    display: none;
-    position: absolute;
-    width: 220px;
-    padding-top: 72px;
-}
-
-.navCategory-content a {
-    color: white;
-    padding: 20px 16px;
-    text-decoration: none;
-    display: block;
-    background: rgba(180,180,180,0.4);
-    font-size: 12px;
-}
-
-.navCategory-content a:hover {background-color: #f1f1f1}
-
-.navCategory:hover .navCategory-content {
-    display: block;
-}
-
-.navIcon {
-    float: right;
-    width: 20%;
-}
-
-.navCategory {
-    padding: 0px 80px 0px 0px;
-    float: right;
-    font-weight: normal;
-    font-size: 14px;
-    width: 15%;
-}
-
-.dropbtn {
-    text-align: right;
-    float: left;
-    font-weight: normal;
-    padding-top: 9%;
-}
-
-.dropicon {
-    width: 10%;
-    float: right;
-}
-
 /*Etter meny*/
 
 .innholdstext {
@@ -133,17 +65,18 @@ h4   {
     width: 20%;
     float: left;
     padding-top: 25%;
-    padding-left: 1%;
     color: #474747;
     overflow: auto;
+    text-align: center;
 }
 
 .quote {
     font-size: 80px;
-    padding-top: 26%;
-    padding-left: 9%;
+    padding-top: 25%;
+    padding-left: 8%;
     float: left;
-    width: 3%;
+    width: 6%;
+    opacity: 0.2;
 }
 
 .innrykk   {
@@ -243,8 +176,8 @@ h4   {
 .ulinnhold {
     display: inline-block;
     list-style: none;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 
 .ulinnholdtop {

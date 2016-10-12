@@ -1,0 +1,68 @@
+
+.back {
+	position: fixed;
+    font-weight: normal;
+    padding: 15px 0px 0px 0px;
+    z-index: 2000;
+    background: rgba(150,150,150,0.6);
+    width: 100%;
+    color: white;
+    top: 0px;
+}
+
+.navBack {
+    padding: 0px 0px 20px 13px;
+    float: left;
+    font-size: 14px;
+}
+.navPil {
+    padding: 0px 0px 20px 80px;
+    float: left;
+}
+
+.navCategory-content {
+    display: none;
+    position: absolute;
+    width: 220px;
+    padding-top: 72px;
+}
+
+.navCategory-content a {
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+    background: rgba(180,180,180,0.6);
+    font-size: 12px;
+}
+
+.navCategory-content a:hover {background-color: rgba(200,200,200,0.6)}
+
+.navCategory:hover .navCategory-content {
+    display: block;
+}
+
+.navIcon {
+    float: right;
+    width: 15%;
+}
+
+.navCategory {
+    padding: 0px 80px 0px 0px;
+    float: right;
+    font-weight: normal;
+    font-size: 14px;
+    width: 15%;
+}
+
+.dropbtn {
+    text-align: right;
+    float: left;
+    font-weight: normal;
+    padding-top: 9%;
+}
+
+.dropicon {
+    width: 10%;
+    float: right;
+}
